@@ -112,27 +112,7 @@ The interactive Power BI dashboard provides an executive overview of core perfor
 * **Protect Margins on Discount-Sensitive Goods:** Five staple products (Hats, Sneakers, Coats, Sweaters, Pants) have ~50% discount dependency[cite: 6]. Adjust discount thresholds toward minimum cart minimums rather than flat markdowns[cite: 9].
 * **Spotlight Top-Rated Inventory:** Feature top-rated products (Gloves, Sandals, Boots) across digital and email marketing campaigns to drive conversion[cite: 5, 9].
 
----
 
-## 🗂️ Repository Structure
-
-```text
-├── data/
-│   ├── customer_shopping_behavior.csv    # Raw transaction data (3,900 rows)
-│   └── cleaned_customer_behavior.csv     # Cleaned and engineered dataset
-├── notebooks/
-│   └── customer_behavior_eda.ipynb       # Pandas EDA, imputation, and DB loader
-├── sql/
-│   └── customer_behavior_queries.sql     # 10 PostgreSQL analytical queries
-├── powerbi/
-│   └── customer_behavior_dashboard.pbix  # Power BI dashboard file
-├── presentation/
-│   ├── Business_Problem_Document.pdf     # Scope and business problem statement
-│   └── Customer_Shopping_Behavior_Deck.pdf # Gamma AI executive presentation
-├── README.md
-└── requirements.txt
-
-```
 
 ---
 
